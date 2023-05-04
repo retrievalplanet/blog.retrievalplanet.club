@@ -70,25 +70,7 @@ const config = {
           src: 'img/favicon.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'docs',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'API',
-          },
-          {to: '/blog', label: 'weekly', position: 'left'},
-          {to: '/workshop', label: 'workshop', position: 'left'},
-          {
-            href: 'https://github.com/retrievalplanet',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/blog', label: 'Blog', position: 'left'},
         ],
       },
       footer: {
