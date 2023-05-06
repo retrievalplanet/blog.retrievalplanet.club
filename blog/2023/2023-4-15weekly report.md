@@ -92,11 +92,11 @@ retrievals数量达到1234
 
 KEN Labs FVM 早期构建者
 
-![KEN Labs FVM 早期构建者](../img/KEN Labs FVM 早期构建者.jpg)
+![KEN Labs FVM 早期构建者](../2023/img/2023-4-15-1.jpg)
 
 KEN Labs 成为数据经济联盟成员
 
-![KEN Labs 成为数据经济联盟成员](../img/KEN Labs 成为数据经济联盟成员.jpg)
+![KEN Labs 成为数据经济联盟成员](../2023/img/2023-4-15-2.jpg)
 
 - 2023年4月15日-19日,将在比利时、布鲁塞尔举行IPFS þing（IPFS代表大会）
 
