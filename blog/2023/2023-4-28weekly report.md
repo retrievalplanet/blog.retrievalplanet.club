@@ -68,11 +68,11 @@ retrievals数量达到1234
 
 1.更新了许多依赖：
 
-![image-20230428205932278](C:\Users\蹦跶\AppData\Roaming\Typora\typora-user-images\image-20230428205932278.png)
+![image-20230428205932278](./img/2023-4-28-1.png)
 
 2.zinnia更新了许多依赖：
 
-![image-20230428210309970](C:\Users\蹦跶\AppData\Roaming\Typora\typora-user-images\image-20230428210309970.png)
+![image-20230428210309970](./img/2023-4-28-2.png)
 
 
 
