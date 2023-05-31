@@ -67,7 +67,7 @@ const config = {
         title: '检索星球',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/favicon.svg',
+          src: 'img/retrievalplanet.png',
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
