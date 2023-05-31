@@ -2,7 +2,7 @@
 slug: welcome
 title: Welcome
 authors: [taoshengshi]
-draft: [true]
+draft: true
 tags: [retrieval planet, hello, welcome,draft]
 ---
 
