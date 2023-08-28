@@ -66,7 +66,7 @@
 
 [Read more](https://twitter.com/FilecoinTLDR/status/1694418996206985544)
 
-![img](img/8-27-5-2023.png)
+![img321](img/8-27-5-2023.png)
 
 3.**FILDevSummit23**
 
@@ -92,7 +92,7 @@ LabWeek23即将在伊斯坦布尔举行 - 11 月 13-17 日，与 Devconnect 同�
 
 了解更多信息： http://23.labweek.io
 
-<img src="img/8-27-6-2023.png" alt="图像" style="zoom: 70%;" />
+<img src="img/8-27-6-2023.png" alt="图像111" style="zoom: 70%;" />
 
 5.**Filecoin news 72**
 
@@ -105,4 +105,4 @@ LabWeek23即将在伊斯坦布尔举行 - 11 月 13-17 日，与 Devconnect 同�
 
 [Read more](https://filecoin.io/blog/posts/filecoin-news-72/)
 
-<img src="img/8-27-7-2023.png" alt="img" style="zoom:70%;" />
+<img src="img/8-27-7-2023.png" alt="img111" style="zoom:70%;" />
