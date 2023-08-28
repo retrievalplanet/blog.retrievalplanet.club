@@ -6,7 +6,7 @@
 
 **L1-node**
 
-*None*
+无
 
 ###  2️⃣boost工具
 
@@ -233,11 +233,9 @@
 
 ### 4️⃣Station
 
-##### desktop
+**desktop**
 
-1.telemetry: 应用核心修复，忽略
-
-ERR_TLS_CERT_ALTNAME_INVALID
+1.telemetry: 应用核心修复，忽略 ERR_TLS_CERT_ALTNAME_INVALID
 
 ![7-30-5-2023](img/7-30-5-2023.png)
 
@@ -253,7 +251,7 @@ ERR_TLS_CERT_ALTNAME_INVALID
 
 ![7-30-8-2023](img/7-30-8-2023.png)
 
-##### zinnia
+**zinnia**
 
 1.更新部分依赖项目
 
