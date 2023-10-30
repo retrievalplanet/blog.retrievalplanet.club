@@ -66,4 +66,4 @@
 
 [FilFoundation](https://twitter.com/FilFoundation)与联合国世界粮食计划署创新加速器 ( [WFP](https://twitter.com/WFP) )、[GBBCouncil](https://twitter.com/GBBCouncil) 、 [Bayer](https://twitter.com/Bayer) 、埃森哲等机构联手开展“粮食危机”活动，以创新应对全球饥饿。
 
-![img](img/10-15-7-2023.png)
+![image](img/10-15-7-2023.png)
