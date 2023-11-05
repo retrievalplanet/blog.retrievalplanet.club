@@ -99,7 +99,7 @@ Filecoin 虚拟机（ [@fvmdev](https://twitter.com/fvmdev) **）于 2023 年 3 
 
 有关协议收入、Filecoin 生态系统、网络更新和关键事件的更多详细信息，请阅读完整报告：
 
-![img](img/10-29-5-2023.png)
-<img src="img/10-29-6-2023.png" alt="img" style="zoom: 190%;" />
+![image-20231105144452072](img/10-29-5-2023.png)
+![image-20231105144611023](img/10-29-6-2023.png)
 
-<img src="img/10-29-7-2023.png" alt="img" style="zoom:190%;" />
+![image-20231105144705185](img/10-29-7-2023.png)
