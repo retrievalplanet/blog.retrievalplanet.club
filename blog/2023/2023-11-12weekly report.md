@@ -144,4 +144,16 @@
 
 ![image-20231127160901393](img/11-12-13-2023.png)
 
+##  📢一周资讯
 
+### 1.The current state of zero-knowledge proofs: from research to serious business
+
+在当今充满数据泄露、隐私问题和在线漏洞的数字环境中，建立信任从未像现在这样重要。零知识证明（zk 证明）提供了一种创新方法，可以在不泄露信息本身的情况下验证敏感信息。这些密码基元为真正的数据保密提供了一个优雅而先进的解决方案。
+
+[more](https://protocol.ai/blog/zero-knowledge-proofs/)
+
+### 2.Breakthrough scaling through interplanetary consensus
+
+行星间共识（IPC）是一种变革性的区块链架构，通过引入区块链中的区块链这一创新概念，实现了行星级的性能。这种开创性的方法可创建无限可扩展的网络，形成递归区块链或 "子网 "的动态树状网络。IPC 的使命是弥合 Web2 和 Web3 在性能和可用性方面的差距，以无与伦比的速度和功能为去中心化的地球级经济提供动力，与中心化系统相媲美。欲了解更多详情，请访问：https://istanbul.ipc.space。
+
+![img](img/11-12-14-2023.png)
