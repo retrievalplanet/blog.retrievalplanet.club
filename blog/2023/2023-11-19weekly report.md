@@ -113,4 +113,4 @@
 
 Lilypad AI Studio 让所有人都能免费使用高级人工智能。通过直观的网络界面探索 Lilypad 的生成模型……或者只是享受制作机器人柯基卡通的乐趣。
 
-<img src="img/11-19-13-2023.png" alt="img" style="zoom:80%;" />
+<img src="img/11-19-13-2023.png" alt="" style="zoom:80%;" />
