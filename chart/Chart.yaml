@@ -1,0 +1,12 @@
+apiVersion: v2
+name: retrievalplanet-club
+description: Install retrievalplanet.club to provide retrievalplanet web page.
+version: 1.0.0
+kubeVersion: < 1.28.0-0
+home: https://retrievalplanet.club/
+keywords:
+  - retrievalplanet-club
+sources:
+  - https://github.com/retrievalplanet/retrievalplanet.club
+maintainers:
+  - name: retrievalplanet team

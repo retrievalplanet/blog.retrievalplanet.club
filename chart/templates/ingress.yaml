@@ -1,0 +1,28 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name:  retrievalplanet-club
+  annotations:
+    meta.helm.sh/release-name: retrievalplanet-club
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/proxy-connect-timeout: "30"
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "1800"
+    nginx.ingress.kubernetes.io/proxy-send-timeout: "1800"
+  labels:
+    apptype: retrievalplanet-club
+    app.kubernetes.io/managed-by: Helm
+    heritage: Helm
+    release:  retrievalplanet-club
+spec:
+  ingressClassName: {{.Values.ingress_name}}
+  rules:
+    - host: retrievalplanet.club
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: retrievalplanet-club-service
+                port:
+                  number: 80
