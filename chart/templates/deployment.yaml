@@ -1,24 +1,24 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: retrievalplanet-club-deployment
+  name: retrievalplanet-blog-deployment
   labels:
-    apptype: retrievalplanet-club
+    apptype: retrievalplanet-blog
 spec:
   replicas: {{ .Values.replicas}}
   selector:
     matchLabels:
-      app: retrievalplanet-club
+      app: retrievalplanet-blog
   template:
     metadata:
       labels:
-        app: retrievalplanet-club
-        apptype: retrievalplanet-club
+        app: retrievalplanet-blog
+        apptype: retrievalplanet-blog
         date: "{{ now | unixEpoch }}"
     spec:
       containers:
-        - name: retrievalplanet-club
-          image: gitdatateam/retrievalplanet-club:{{ .Values.tag }}
+        - name: retrievalplanet-blog
+          image: gitdatateam/retrievalplanet-blog:{{ .Values.tag }}
           imagePullPolicy: Always
           ports:
             - containerPort: 80

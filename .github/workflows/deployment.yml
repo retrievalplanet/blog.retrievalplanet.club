@@ -42,15 +42,15 @@ jobs:
       - name: Build and push
         run: |
           docker login -u  ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_TOKEN }}
-          docker build -t gitdatateam/retrievalplanet-club:${{ steps.version.outputs.version }} . 
-          docker push gitdatateam/retrievalplanet-club:${{ steps.version.outputs.version }}
+          docker build -t gitdatateam/retrievalplanet-blog:${{ steps.version.outputs.version }} . 
+          docker push gitdatateam/retrievalplanet-blog:${{ steps.version.outputs.version }}
 
-          docker tag gitdatateam/retrievalplanet-club:${{ steps.version.outputs.version }} gitdatateam/retrievalplanet-club:latest
-          docker push gitdatateam/retrievalplanet-club:latest
+          docker tag gitdatateam/retrievalplanet-blog:${{ steps.version.outputs.version }} gitdatateam/retrievalplanet-blog:latest
+          docker push gitdatateam/retrievalplanet-blog:latest
         
       - name: Deploy
         uses: WyriHaximus/github-action-helm3@v3
         with:
-          exec: helm upgrade retrievalplanet-club --install ./chart --namespace website --set-string tag=latest
+          exec: helm upgrade retrievalplanet-blog --install ./chart --namespace website --set-string tag=latest
           kubeconfig: ${{ secrets.KUBECONTENT }}
           overrule_existing_kubeconfig: "true"

@@ -1,18 +1,18 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name:  retrievalplanet-club
+  name:  retrievalplanet-blog
   annotations:
-    meta.helm.sh/release-name: retrievalplanet-club
+    meta.helm.sh/release-name: retrievalplanet-blog
     nginx.ingress.kubernetes.io/rewrite-target: /
     nginx.ingress.kubernetes.io/proxy-connect-timeout: "30"
     nginx.ingress.kubernetes.io/proxy-read-timeout: "1800"
     nginx.ingress.kubernetes.io/proxy-send-timeout: "1800"
   labels:
-    apptype: retrievalplanet-club
+    apptype: retrievalplanet-blog
     app.kubernetes.io/managed-by: Helm
     heritage: Helm
-    release:  retrievalplanet-club
+    release:  retrievalplanet-blog
 spec:
   ingressClassName: {{.Values.ingress_name}}
   rules:
@@ -23,6 +23,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: retrievalplanet-club-service
+                name: retrievalplanet-blog-service
                 port:
                   number: 80
