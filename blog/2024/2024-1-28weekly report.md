@@ -66,8 +66,6 @@
 
    MuckRock 是一个非营利性新闻网站，为人们提供保持政府透明度和问责制的工具。  与 Filecoin 网络和文件云, MuckRock 保存了超过 1000 万份经过验证的文件。
 
-   [more]()
-
 ![img](img/2024-1-28-9.png)
 
 3. Destor
