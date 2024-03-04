@@ -16,7 +16,7 @@ metadata:
 spec:
   ingressClassName: {{.Values.ingress_name}}
   rules:
-    - host: retrievalplanet.club
+    - host: blog.retrievalplanet.club
       http:
         paths:
           - path: /
