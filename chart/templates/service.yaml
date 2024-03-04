@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: retrievalplanet-blog-service
+  name: retrievalplanet-club-blog-service
   labels:
-    apptype: retrievalplanet-blog
+    apptype: retrievalplanet-club-blog
 spec:
   type: ClusterIP
   selector:
-    app: retrievalplanet-blog
+    app: retrievalplanet-club-blog
   ports:
     - protocol: TCP
       port: 80

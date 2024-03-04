@@ -1,11 +1,11 @@
 apiVersion: v2
-name: retrievalplanet-blog
+name: retrievalplanet-club-blog
 description: Install blog.retrievalplanet.club to provide retrievalplanet web page.
 version: 1.0.0
 kubeVersion: < 1.28.0-0
 home: https://blog.retrievalplanet.club/
 keywords:
-  - retrievalplanet-blog
+  - retrievalplanet-club-blog
 sources:
   - https://github.com/retrievalplanet/docsite
 maintainers:
