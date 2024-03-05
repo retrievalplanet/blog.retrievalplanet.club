@@ -6,12 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '检索星球',
+  title: '检索星球周报',
   tagline: 'Filecoin检索市场构建者俱乐部',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docsite.retrievalplanet.club',
+  url: 'https://blog.retrievalplanet.club',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Retrieval Planet', // Usually your GitHub org/user name.
-  projectName: 'docsite', // Usually your repo name.
+  projectName: 'blog.retrievalplanet.club', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -37,15 +37,10 @@ const config = {
       '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        docs:false,
         blog: {
           blogSidebarCount: "ALL",
+          routeBasePath: '/', // Serve the blog at the site's root
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -65,14 +60,11 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '检索星球',
+        title: '检索星球周报',
         logo: {
           alt: 'My Site Logo',
           src: 'img/retrievalplanet.png',
         },
-        items: [
-          {to: '/blog', label: 'Blog', position: 'left'},
-        ],
       },
       footer: {
         style: 'dark',
